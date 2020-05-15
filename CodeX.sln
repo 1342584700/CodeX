@@ -21,9 +21,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChipDataWindow", "ChipDataW
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rdparty", "3rdparty", "{E39C117F-8162-470F-8423-70F8562A03A1}"
-	ProjectSection(SolutionItems) = preProject
-		3rdparty\zlibstatic.vcxproj = 3rdparty\zlibstatic.vcxproj
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chip", "Chip\Chip.vcxproj", "{97F7BC82-D588-4012-95AE-7585053A8705}"
 EndProject
@@ -36,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChipSolver", "ChipSolver\Ch
 	ProjectSection(ProjectDependencies) = postProject
 		{97F7BC82-D588-4012-95AE-7585053A8705} = {97F7BC82-D588-4012-95AE-7585053A8705}
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlibstatic", "3rdparty\zlibstatic.vcxproj", "{C5E57C1B-2CA2-3C74-ACE0-17423754CB69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -197,12 +196,35 @@ Global
 		{70EF6B71-DBD0-4868-845B-F1690A5D671C}.RelWithDebInfo|x64.Build.0 = Release|x64
 		{70EF6B71-DBD0-4868-845B-F1690A5D671C}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
 		{70EF6B71-DBD0-4868-845B-F1690A5D671C}.RelWithDebInfo|x86.Build.0 = Release|Win32
+		{C5E57C1B-2CA2-3C74-ACE0-17423754CB69}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C5E57C1B-2CA2-3C74-ACE0-17423754CB69}.Debug|Win32.Build.0 = Debug|Win32
+		{C5E57C1B-2CA2-3C74-ACE0-17423754CB69}.Debug|x64.ActiveCfg = Debug|Win32
+		{C5E57C1B-2CA2-3C74-ACE0-17423754CB69}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5E57C1B-2CA2-3C74-ACE0-17423754CB69}.Debug|x86.Build.0 = Debug|Win32
+		{C5E57C1B-2CA2-3C74-ACE0-17423754CB69}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{C5E57C1B-2CA2-3C74-ACE0-17423754CB69}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{C5E57C1B-2CA2-3C74-ACE0-17423754CB69}.MinSizeRel|x64.ActiveCfg = MinSizeRel|Win32
+		{C5E57C1B-2CA2-3C74-ACE0-17423754CB69}.MinSizeRel|x86.ActiveCfg = MinSizeRel|Win32
+		{C5E57C1B-2CA2-3C74-ACE0-17423754CB69}.MinSizeRel|x86.Build.0 = MinSizeRel|Win32
+		{C5E57C1B-2CA2-3C74-ACE0-17423754CB69}.Release|Win32.ActiveCfg = Release|Win32
+		{C5E57C1B-2CA2-3C74-ACE0-17423754CB69}.Release|Win32.Build.0 = Release|Win32
+		{C5E57C1B-2CA2-3C74-ACE0-17423754CB69}.Release|x64.ActiveCfg = Release|Win32
+		{C5E57C1B-2CA2-3C74-ACE0-17423754CB69}.Release|x86.ActiveCfg = Release|Win32
+		{C5E57C1B-2CA2-3C74-ACE0-17423754CB69}.Release|x86.Build.0 = Release|Win32
+		{C5E57C1B-2CA2-3C74-ACE0-17423754CB69}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{C5E57C1B-2CA2-3C74-ACE0-17423754CB69}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{C5E57C1B-2CA2-3C74-ACE0-17423754CB69}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|Win32
+		{C5E57C1B-2CA2-3C74-ACE0-17423754CB69}.RelWithDebInfo|x86.ActiveCfg = RelWithDebInfo|Win32
+		{C5E57C1B-2CA2-3C74-ACE0-17423754CB69}.RelWithDebInfo|x86.Build.0 = RelWithDebInfo|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5E57C1B-2CA2-3C74-ACE0-17423754CB69} = {E39C117F-8162-470F-8423-70F8562A03A1}
+	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C3A7A5BC-ECAE-4D3A-891B-42496C40D214}
 		Qt5Version = x86 static
+		SolutionGuid = {C3A7A5BC-ECAE-4D3A-891B-42496C40D214}
 	EndGlobalSection
 EndGlobal
